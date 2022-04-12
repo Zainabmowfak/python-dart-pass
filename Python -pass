@@ -1,0 +1,18 @@
+//question3
+def fun():
+  x=input("enter x value: ")
+  list=[]
+  z=int(x)
+  if z<=10  and  z>0:
+   for i in range(z):
+       n=input()
+       list.append(int(n))
+ for i in list:
+      if (i%2==0):
+        print(str(i)+" is even")
+      else:
+        print(str(i)+" is odd")
+      
+ else:
+     print("tray again with number between 0 & 20")
+fun()
